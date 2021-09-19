@@ -11,7 +11,7 @@ export default function Counter() {
     };
 
     return (
-        <div className="mb-3 text-center">
+        <div className="text-center">
             <h3>Counter: {counter}</h3>
             <button
                 className="btn btn-primary me-1"

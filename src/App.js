@@ -2,13 +2,18 @@ import React from "react";
 import Counter from "./components/Counter";
 import Cards from "./components/Cards";
 import Posts from "./components/Posts";
+import Gap from "./components/Gap";
+import Title from "./components/Title";
 
 function App() {
     return (
         <div className="container my-3">
             <Counter></Counter>
+            <Gap></Gap>
+            <Title title="Shopping Site"></Title>
             <Cards></Cards>
-            <Counter></Counter>
+            <Gap></Gap>
+            <Title title="Post from json placeholder"></Title>
             <Posts></Posts>
         </div>
     );
