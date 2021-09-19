@@ -13,13 +13,13 @@ export default function Battery() {
         <div className="text-center">
             <h2>Battery: {power}</h2>
             <button
-                className="btn btn-dark me-1"
+                className="btn btn-outline-dark me-1"
                 onClick={() => changePower(-10)}
             >
                 Battery Down
             </button>
             <button
-                className="btn btn-outline-dark ms-1"
+                className="btn btn-dark ms-1"
                 onClick={() => changePower(+10)}
             >
                 Battery Up
